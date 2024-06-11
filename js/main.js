@@ -86,7 +86,6 @@ while (true) {
             let producto_nuevo = new Producto(nombre, precio, stock)
             sistema.productos.push(producto_nuevo)
             alert("El producto ha sido añadido")
-            console.log(sistema.productos)
         }
 
     } else {
